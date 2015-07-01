@@ -113,6 +113,8 @@ Just take each element and multiply it by 3, one at a time.
            
 ```
 
+### combining operands
 
+![screenshot](http://take.ms/mMK9W)
 
 
