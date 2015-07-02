@@ -83,7 +83,7 @@ Subtraction works the same way.
 
 # Scalar multiplication
 
-**scalar** is a fancy word for "real number"
+**scalar** is a fancy word for "just plain a number"
 
 ```
 	 ---------     ----------
@@ -116,5 +116,19 @@ Just take each element and multiply it by 3, one at a time.
 ### combining operands
 
 ![screenshot](http://take.ms/mMK9W)
+
+
+# matrix vector multiplication
+
+![screenshot](http://take.ms/wAbwt)
+
+**number of columns in matrix must match number of rows in vector**
+
+To multipliy a matrix with dimension m x n by a n x 1 matrix, the `n's` must be the same. We can multiply, for example, a matrix 2 x 3 by a vector 3 x 1, but not one that is 2 x 3 by a vector 4 x 1.
+
+the product will be an `m` dimensional vector. 
+
+the multiplication proceeds by multiplying ever column in A by every row in x and add them up.
+
 
 
